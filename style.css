@@ -1,0 +1,106 @@
+.icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo h5 {
+  margin: 0%;
+}
+
+.card-img-top {
+  height: 200px;
+  background-size: cover;
+}
+
+.hide {
+  display: inline;
+}
+
+.col-md-4 {
+  padding: 15px;
+}
+
+.jumbotron {
+  background-size: cover;
+  text-shadow: 0 1px 3px rgba(0,0,0,.8);
+  color: #fff!important;
+}
+
+.jumbotron h1 {
+  font-weight: 500;
+  width: 50%;
+  font-size: 3rem;
+}
+
+.tech, .tech:hover {
+  color: #007bff;
+}
+
+.esporte, .esporte:hover {
+  color: #28a745;
+}
+
+.musica, .musica:hover {
+  color: #dc3545;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+.stretched-link h3 {
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 424px) {
+  header .container {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .jumbotron h1 {
+    width: 100%;
+    font-size: 2rem;
+  }
+}
+
+.categoria {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.media_box {
+  display: none;
+
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.container-image {
+  position: relative;
+  text-align: center;
+}
+
+.container-image img, .container-image .centered {
+  width: 100%;
+  text-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
