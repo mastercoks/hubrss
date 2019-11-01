@@ -14,7 +14,7 @@ const newsCategoryTemplate = (news) => {
   html += `<div class="col-md-12 row">`;
   html +=   news.image ? `<div class="col-md-4"><img src="${news.image}" alt="Imagem"></div><div class="card-body col-md-8">` : `<div class="card-body">`;
   html +=  `<strong class="d-inline-block mb-2 ${news.class}">${news.author.name}</strong>
-            <a href="noticia/?id=${news.id}" class="stretched-link ${news.class}"><h3 class="mb-0">${news.title}</h3></a>
+            <a href="../noticia/?id=${news.id}" class="stretched-link ${news.class}"><h3 class="mb-0">${news.title}</h3></a>
           </div></div>`;
   return html;
 }
