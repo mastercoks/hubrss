@@ -21,7 +21,7 @@ const newsCategoryTemplate = (news) => {
 
 const principalNewsTemplate = (news) => {
   return `
-      <div class="card jumbotron p-4 p-md-5" style="height:700px; background-image: url(${news.image})">
+      <div class="card jumbotron p-4 p-md-5" style="background-image: url(${news.image})">
         <div class="card-body">
         <div class="card-body">
           <a href="noticia/?id=${news.id}" class="stretched-link"><h1 class="text-white display-4 font-italic">${news.title}</h1></a>
